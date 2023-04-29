@@ -1,7 +1,7 @@
 # Limited-UGC-spam-button
 Não é um bot. Ele não garante limiteds.
 
-Primeiro: o código não deve ser adicionado a programas (replit, Viscose, etc).
+Primeiro: o código não deve ser adicionado a programas (replit, VSCode, etc).
 
 
 # TUTORIAL-PC
