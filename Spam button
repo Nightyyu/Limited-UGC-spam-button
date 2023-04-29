@@ -1,0 +1,17 @@
+function snipeitem() {
+  const buyButton = Array.from(document.querySelectorAll('button'))
+    .find(button => button.textContent === 'Buy');
+  
+  if (!buyButton) {
+    console.log(' ❌| Item offsale. Tentando novamente...');
+    setTimeout(snipeitem, 500);
+    return;
+  }
+  
+  buyButton.click();
+console.log('✅ | O botão "buy" foi clicado.')
+  
+  
+}
+
+snipeitem();
